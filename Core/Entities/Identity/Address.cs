@@ -15,6 +15,7 @@ namespace Core.Entities.Identity
         public string City { get; set; }
         public string State { get; set; }
         public string ZipCode { get; set; }
+        public string Country {get; set;}
 
         [Required]
         public string AppUserId { get; set; }
